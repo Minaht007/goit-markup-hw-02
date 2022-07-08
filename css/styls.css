@@ -5,14 +5,10 @@ ul {
     list-style-type: none;    
 }
 
-Baner {
-    ont-style: normal;
+.Baner {
+    font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
-/* or 136% */
-
-text-align: center;
-letter-spacing: 0.06em;
-color: white;
+color: rgb(146, 26, 26);
 }
