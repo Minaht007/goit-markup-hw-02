@@ -1,14 +1,19 @@
 
-font-family: 'Roboto', sans-serif;
 
+.header 
+{
+
+}
 ul {    
     list-style-type: none;    
 }
 
-.Baner {
+.Baner
+ {
+    font-family: 'Roboto';
     font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-color: rgb(146, 26, 26);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: aquamarine;
 }
