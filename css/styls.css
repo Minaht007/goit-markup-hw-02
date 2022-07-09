@@ -11,7 +11,7 @@
 
 ul {  list-style-type: none;}
 
-.nav {
+.header-nav{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -31,4 +31,16 @@ ul {  list-style-type: none;}
     font-size: 44px;
     line-height: 60px;
     color: aquamarine;
+}
+
+.advantadegv{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #259c49;
 }
