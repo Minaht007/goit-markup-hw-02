@@ -9,9 +9,19 @@
     line-height: 31px;
     color: #2196F3;
 
-ul {    
-    list-style-type: none;    
+ul {  list-style-type: none;}
+
+.nav {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7c0a0a;
+    ; 
 }
+
+
 
 .Baner
  {
