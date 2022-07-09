@@ -8,21 +8,17 @@ ul {  list-style-type: none;}
     font-size: 26px;
     line-height: 31px;
     color: #2196F3;
-
-
-
+}
 .header-nav {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #7c0a0a;
-    
+    color: #7c0a0a;   
 }
 
-.Baner, h1
- {
+.Baner {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -31,14 +27,60 @@ ul {  list-style-type: none;}
     color: aquamarine;
 }
 
-.advantadegv{
+.main-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #f4f8f5;
+    background-color: #2196F3;
+    margin-top: 360px;
+    margin-right: 732px;
+    margin-bottom: 210px;
+    margin-left: 732px;
+
+}
+
+.why {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    letter-spacing: 0.03em;
-    
+    letter-spacing: 0.03em;    
     color: #259c49;
+}
+
+.list, h3, h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;         
+    color: #212121;
+}
+
+.p p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+
+.contact {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(13, 224, 154, 0.6);
 }
