@@ -30,7 +30,7 @@ text-transform: uppercase;
 /* color: #FFFFFF; */
 }
 
-.main-button {
+.mainbtn {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -60,21 +60,25 @@ text-transform: uppercase;
     color: black;
 }
 
-.list, h3, h2 {
+.why-list {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;         
-    color: #212121;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+color: #212121;
 }
 
-.p p {
+.why-p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    letter-spacing: 0.03em;
     color: #757575;
 }
 
