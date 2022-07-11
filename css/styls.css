@@ -1,5 +1,25 @@
 
 ul {  list-style-type: none;}
+
+.logos {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.logof {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: black;
+}
+
 .header 
 {
     font-family: 'Raleway';
