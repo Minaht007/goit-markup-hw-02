@@ -20,11 +20,14 @@ ul {  list-style-type: none;}
 
 .Baner {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    color: aquamarine;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+/* color: #FFFFFF; */
 }
 
 .main-button {
@@ -52,7 +55,7 @@ ul {  list-style-type: none;}
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.03em;    
     color: #259c49;
 }
@@ -84,3 +87,15 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: rgba(13, 224, 154, 0.6);
 }
+
+.filter {
+   margin-top: 174px;
+   margin-bottom: 34px;
+   margin-left: 495px;
+   margin-right: 494px;
+}
+
+/* подсветка ссылки */
+.header-nav:hover, .contact:hover{
+    color: #2196F3;
+ }
