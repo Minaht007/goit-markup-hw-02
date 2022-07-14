@@ -4,14 +4,14 @@
 }
 
 .main {
-    font-family: roboto;
-}
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   }
 
 ul {  list-style-type: none;}
 
 .logos {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -21,7 +21,6 @@ ul {  list-style-type: none;}
 
 .logof {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -31,7 +30,7 @@ ul {  list-style-type: none;}
 
 .header 
 {
-    font-family: 'Raleway';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -48,6 +47,10 @@ ul {  list-style-type: none;}
     color: var(--main-color);
     text-decoration: none;   
 }
+/* подсветка ссылки */
+.header-nav:hover .contact:hover:focus {
+    color: #2196F3;
+ }
 
 .baner {
     font-family: 'Roboto';
@@ -59,9 +62,7 @@ ul {  list-style-type: none;}
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    background-color: #2F303A;
-    width: 1600px;
-    height: 600px;
+    background-color: #2F303A;    
 }
 
 .main-btn {
@@ -79,6 +80,7 @@ ul {  list-style-type: none;}
     margin-right: 732px;
     margin-bottom: 210px;
     margin-left: 732px; */
+    cursor: pointer;
 
 }
 .main-btn:hover {
@@ -132,7 +134,8 @@ ul {  list-style-type: none;}
     text-decoration: none;
 }
 .contact:hover {
-    background-color:chartreuse ;
+    color: var(--add-color);    
+    cursor: pointer;
 }
 
 .filter {
@@ -144,7 +147,31 @@ ul {  list-style-type: none;}
    height: 38px; */
 }
 
-/* подсветка ссылки */
-.header-nav:hover, .contact:hover{
-    color: #2196F3;
+
+
+ .footer {
+    background: #2F303A;
+ }
+ .logo-foot {
+    color: #FFFFFF;
+ }
+ .foot-contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+ }
+ .foot-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);   
  }
