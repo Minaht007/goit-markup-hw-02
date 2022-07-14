@@ -1,6 +1,7 @@
 :root {
     --main-color: #212121;
     --add-color: #2196F3;
+    --filter-menu: #757575;
 }
 
 .main {
@@ -149,7 +150,25 @@ ul {  list-style-type: none;}
        cursor: pointer;
 }
 
+/* Our Project */
+.project {
 
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: var(--main-color);
+}
+
+.project-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--filter-menu);    
+}
 
 
  .footer {
@@ -159,22 +178,16 @@ ul {  list-style-type: none;}
     color: #FFFFFF;
  }
  .foot-contact {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
     letter-spacing: 0.03em;
     color: #FFFFFF;
  }
  .foot-link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
+    line-height: 24px;   
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);   
  }
