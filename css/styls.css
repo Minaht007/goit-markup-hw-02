@@ -39,8 +39,6 @@ ul {  list-style-type: none;}
     text-decoration: none;
 }
 .header-nav {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -48,13 +46,14 @@ ul {  list-style-type: none;}
     text-decoration: none;   
 }
 /* подсветка ссылки */
-.header-nav:hover .contact:hover:focus {
+.header-nav:hover  {
     color: #2196F3;
+ }
+ .contact:hover:focus {
+    color: var(--add-color);
  }
 
 .baner {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -66,7 +65,6 @@ ul {  list-style-type: none;}
 }
 
 .main-btn {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -88,8 +86,6 @@ ul {  list-style-type: none;}
 }
 
 .why {
-    font-family: 'Roboto';
-    /* font-style: normal; */
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -99,8 +95,8 @@ ul {  list-style-type: none;}
 }
 
 .why-list {
-    font-family: 'Roboto';
-    font-style: normal;
+    /* font-family: 'Roboto';
+    font-style: normal; */
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -112,8 +108,6 @@ ul {  list-style-type: none;}
 }
 
 .why-p {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -124,8 +118,6 @@ ul {  list-style-type: none;}
 }
 
 .contact {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -139,6 +131,7 @@ ul {  list-style-type: none;}
 }
 
 .filter {
+    width: 611px;
    /* margin-top: 174px;
    margin-bottom: 34px;
    margin-left: 495px;
@@ -146,6 +139,16 @@ ul {  list-style-type: none;}
    /* width: 128px;
    height: 38px; */
 }
+.filter-list {
+    width: 128px;
+}
+.filter-all {
+    width: 73px;
+}
+.filter:hover {
+       cursor: pointer;
+}
+
 
 
 
