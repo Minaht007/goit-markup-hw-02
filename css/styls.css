@@ -44,11 +44,11 @@ ul {  list-style-type: none;}
     text-decoration: none;   
 }
 /* подсветка ссылки */
-.header-nav:hover:focus  {
+.header-nav:hover, .header-nav:focus  {
    
     color: var(--add-color);
  }
- .contact:hover:focus {
+ .contact:hover, .contact:focus {
     color: var(--add-color);
  }
 .hero {
