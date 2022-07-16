@@ -167,6 +167,7 @@ ul {  list-style-type: none;}
     letter-spacing: 0.03em;
     width: 128px;
     color: var(--main-color);
+    cursor: pointer;
     }
 
 .filter-list:hover {
@@ -184,6 +185,7 @@ ul {  list-style-type: none;}
     width: 128px;
     color: var(--main-color);
     width: 73px;
+    cursor: pointer;
     }
 
 .filter-all:hover {
