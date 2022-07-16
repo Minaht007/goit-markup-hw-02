@@ -233,11 +233,21 @@ ul {  list-style-type: none;}
     letter-spacing: 0.03em;
     color: #FFFFFF;
  }
- .foot-link {
+.foot-contact:hover, .foot-contact:focus {
+    color: var(--add-color);
+
+}
+ 
+
+.foot-link {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;   
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);  
     text-decoration: none; 
+ }
+
+ .foot-link:hover, .foot-link:focus {
+    color:add-color;
  }
