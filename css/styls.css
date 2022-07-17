@@ -83,7 +83,9 @@ ul {  list-style-type: none;}
 
 }
 .main-btn:hover {
-    background-color: bisque;
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .why {
@@ -176,6 +178,11 @@ ul {  list-style-type: none;}
     background-color: var(--add-color);
 }
 
+.filter-list:focus {
+    color: #FFFFFF;
+    background-color: var(--add-color);
+}
+
 .filter-all {
     font-family: 'Roboto';
     font-weight: 500;
@@ -193,6 +200,10 @@ ul {  list-style-type: none;}
     color: #FFFFFF;
     background-color: var(--add-color);
 }
+
+.filter-all:focus
+    color: #FFFFFF;
+    background-color: var(--add-color);
 
 .filter:hover {
        cursor: pointer;
@@ -233,9 +244,12 @@ ul {  list-style-type: none;}
     letter-spacing: 0.03em;
     color: #FFFFFF;
  }
-.foot-contact:hover, .foot-contact:focus {
+.foot-contact:hover {
     color: var(--add-color);
 
+}
+.foot-contact:focus {
+    color: var(--add-color);
 }
  
 
@@ -248,6 +262,10 @@ ul {  list-style-type: none;}
     text-decoration: none; 
  }
 
- .foot-link:hover, .foot-link:focus {
+ .foot-link:hover {
     color:add-color;
+ }
+
+ .foot-link:focus {
+    color: var(--add-color);
  }
