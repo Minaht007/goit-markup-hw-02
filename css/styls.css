@@ -32,7 +32,7 @@ ul {  list-style-type: none;}
 {
     font-weight: 700;
     font-size: 26px;
-    line-height: 1/2;
+    line-height: 1.2;
     color: var(--add-color);
     text-decoration: none;
 }
@@ -201,9 +201,11 @@ ul {  list-style-type: none;}
     background-color: var(--add-color);
 }
 
-.filter-all:focus
+.filter-all:focus {
     color: #FFFFFF;
     background-color: var(--add-color);
+}
+    
 
 .filter:hover {
        cursor: pointer;
@@ -263,7 +265,7 @@ ul {  list-style-type: none;}
  }
 
  .foot-link:hover {
-    color:add-color;
+    color: var(--add-color);
  }
 
  .foot-link:focus {
