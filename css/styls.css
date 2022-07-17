@@ -10,6 +10,21 @@ body {
 
 ul {  list-style-type: none;}
 
+/* .box-head {
+
+    display: inline-flex;
+    box-sizing: content-box;
+    width: 1600px;
+}
+
+.box-nav {
+    display flex: inline-size: 1600;
+} */
+
+
+
+
+
 .logos {
     font-family: 'Raleway';
     font-weight: 700;
