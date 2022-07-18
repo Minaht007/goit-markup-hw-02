@@ -225,7 +225,21 @@ ul {  list-style-type: none;}
     justify-content: last baseline;
     margin-top: 94px;
     gap: 30px;
-    
+
+}
+
+.box-lines {
+    display: flex;
+    margin-top: 94px;
+    justify-content: center;
+}
+
+
+
+.img-lines {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .why {
