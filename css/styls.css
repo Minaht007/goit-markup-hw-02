@@ -284,6 +284,26 @@ ul {  list-style-type: none;}
     letter-spacing: 0.03em;
     color: var(--main-color); 
 }
+
+/* .comand-section {
+    display: flex;
+    justify-content: center;
+   
+} */
+.comand-name {
+    display: flex;
+    justify-content: center;
+    margin-top: 188px;
+}
+.team-line {
+    display: flex;
+    justify-content: center ;
+    margin-top: 50px;
+    margin-bottom: 94px;
+    gap: 30px;
+}
+
+
 .team-rang {
     font-weight: 400;
     font-size: 16px;
