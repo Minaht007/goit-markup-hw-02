@@ -170,11 +170,11 @@ ul {  list-style-type: none;}
 
 
 .hero {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     /* align-items: center; */
-    width: 1600px;
-    height: 600px;    
+    /* width: 1600px;
+    height: 600px;     */
     /* padding-top: 200px;
     padding-bottom: 280px;
     margin-top: 30; */
@@ -264,7 +264,7 @@ ul {  list-style-type: none;}
 /* identical to box height */
     /* text-align: center; */
     letter-spacing: 0.03em;
-    color: #212121; 
+    color: var(--main-color); 
 
 }
 
@@ -313,7 +313,7 @@ ul {  list-style-type: none;}
     justify-content: center; */
     
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.1;
     /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--filter-menu);
@@ -415,7 +415,7 @@ ul {  list-style-type: none;}
     text-decoration: none;
     font-size: 18px;
     line-height: 2;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     color: var(--main-color);
 }
 
@@ -426,7 +426,7 @@ ul {  list-style-type: none;}
     line-height: 1.8;
     letter-spacing: 0.03em;
     text-decoration: none;
-    margin-top: 4px;
+    /* margin-top: 4px; */
     color: var(--filter-menu);
 }
 .project-link {
@@ -442,10 +442,9 @@ ul {  list-style-type: none;}
  .foot-contact {   
     text-decoration: none;    
  }
- 
+
 .adress {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -463,7 +462,6 @@ ul {  list-style-type: none;}
  
 
 .foot-link {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;   
     letter-spacing: 0.03em;
