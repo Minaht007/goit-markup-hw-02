@@ -1,4 +1,4 @@
-h1, h2, h3, p {
+/* h1, h2, h3, p {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -10,7 +10,7 @@ ul {
 
 img {
     display: block;
-}
+} */
 
 *,
 *::before,
@@ -31,43 +31,41 @@ body {
 
 ul {  list-style-type: none;}
 
- .box-head {    
+ /* .box-head {    
     display: flex;
     box-sizing: border-box;
     flex-direction: row;
     justify-content: space-between;
     border: 1px solid #ECECEC; 
-    /* width: 1600px; */
     height: 88px;
     margin-top: 32px;
-    margin-bottom: 32px;
-   
-}
-.box-logo {
+    margin-bottom: 32px;   
+ } */
+
+/* .box-logo {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 24px;
     margin-bottom: 25px;
     margin-left: 215px;
-}
-.box-nav {
+} */
+/* .box-nav {
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-around;
- 
+    justify-content: space-around; 
     margin-left: 215px;
-}
+} */
 
-.box-studio {
+/* .box-studio {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-left: 92px;
     margin-top: 32px;
     margin-bottom: 32px;
-}
-.box-portfolio {
+} */
+/* .box-portfolio {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -75,8 +73,8 @@ ul {  list-style-type: none;}
     margin-bottom: 32px;
     margin-left: 50px;
     margin-right: 50px;
-}
-.menu-contacts {
+} */
+/* .menu-contacts {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -84,18 +82,17 @@ ul {  list-style-type: none;}
     margin-bottom: 32px;
     /* margin-left: 50px; */
     margin-right: 50px;
-}
+} */
 
-.box-contact {
+/* .box-contact {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 32px;
     margin-bottom: 32px;
-  
-   
-}
-.box-tel {
+} */
+
+/* .box-tel {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;     
@@ -103,25 +100,23 @@ ul {  list-style-type: none;}
     margin-bottom: 32px;
     margin-left: 50px;
     margin-right: 215px;
-}
+} */
 
-.box-mail {
+/* .box-mail {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 32px;
     margin-bottom: 32px;
     margin-left: 331px;
-}
+} */
 
-.list-nav {
+/* .list-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   
-}
-
-
+} */
 
 
 
@@ -177,12 +172,12 @@ ul {  list-style-type: none;}
 .hero {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    /* width: 1600px;
-    height: 600px; */
-    padding-top: 200px;
+    /* align-items: center; */
+    width: 1600px;
+    height: 600px;    
+    /* padding-top: 200px;
     padding-bottom: 280px;
-    margin-top: 30;
+    margin-top: 30; */
     background-color: #2F303A; 
 }
 .box-btn {
@@ -226,30 +221,29 @@ ul {  list-style-type: none;}
     border-radius: 4px;
 }
 
-.box-advantages {
+/* .box-advantages {
     display: flex;
     justify-content: last baseline;
     margin-top: 94px;
     margin-left: 215px;
     margin-right: 215px;
     gap: 30px;
+} */
 
-}
-
-.box-lines {
+/* .box-lines {
     display: flex;
     margin-top: 94px;
     justify-content: center;
-}
+} */
 
 
 
-.img-lines {
+/* .img-lines {
     display: flex;
     justify-content: center;
     margin-top: 50px;
     gap: 30px;
-}
+} */
 
 .why {
     font-weight: 700;
@@ -275,7 +269,7 @@ ul {  list-style-type: none;}
 }
 
 .why-p {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: 1.7;
 /* identical to box height */
@@ -284,7 +278,7 @@ ul {  list-style-type: none;}
     color: #757575;
 }
 
-.team-name {
+/* .team-name {
     display: flex;
     justify-content: center;
     font-weight: 500;
@@ -293,31 +287,31 @@ ul {  list-style-type: none;}
     /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--main-color); 
-}
+} */
 
 /* .comand-section {
     display: flex;
     justify-content: center;
    
 } */
-.comand-name {
+/* .comand-name {
     display: flex;
     justify-content: center;
     margin-top: 188px;
-}
-.team-line {
+} */
+/* .team-line {
     display: flex;
     justify-content: center ;
     margin-top: 50px;
     margin-bottom: 94px;
     gap: 30px;
-}
+} */
 
 
 .team-rang {
-    display: flex;
-    justify-content: center;
-    font-weight: 400;
+    /* display: flex;
+    justify-content: center; */
+    
     font-size: 16px;
     line-height: 19px;
     /* text-align: center; */
@@ -343,16 +337,15 @@ ul {  list-style-type: none;}
     display: none;  
 }
 
-.filter {
+/* .filter {
     display: flex;
     justify-content: center;
     gap: 8px;
     margin-top: 94px;
 
-}
+} */
 
 .filter-list {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -375,13 +368,11 @@ ul {  list-style-type: none;}
 }
 
 .filter-all {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
-    width: 128px;
     color: var(--main-color);
     width: 73px;
     cursor: pointer;
@@ -406,7 +397,7 @@ ul {  list-style-type: none;}
 /* .project {
 } */
 
-.what-project {
+/* .what-project {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -415,23 +406,22 @@ ul {  list-style-type: none;}
     margin-bottom: 94px;
     margin-left: 215px;
     margin-right: 215px;
-}
+} */
 
 .project-title {
-    display: flex;
-    justify-content: flex-start;
+    /* display: flex;
+    justify-content: flex-start; */
     font-weight: 700;
     text-decoration: none;
     font-size: 18px;
-    line-height: 2px;
+    line-height: 2;
     margin-top: 20px;
     color: var(--main-color);
 }
 
 .project-list {
-    display: flex;
-    justify-content: flex-start;
-    font-weight: 400;    
+    /* display: flex;
+    justify-content: flex-start; */
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
@@ -452,6 +442,7 @@ ul {  list-style-type: none;}
  .foot-contact {   
     text-decoration: none;    
  }
+ 
 .adress {
     font-style: normal;
     font-weight: 400;
