@@ -58,7 +58,7 @@ ul {  list-style-type: none;}
     font-weight: 900;
     font-size: 44px;
     line-height: 1.5;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -238,14 +238,19 @@ ul {  list-style-type: none;}
  .logo-foot {
     color: #FFFFFF;
  }
- .foot-contact {
+ .foot-contact {   
+    text-decoration: none;    
+ }
+.adress {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
- }
+
+}
+
 .foot-contact:hover {
     color: var(--add-color);
 
