@@ -341,6 +341,12 @@ ul {  list-style-type: none;}
     display: none;  
 }
 
+.filter {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    
+}
 
 .filter-list {
     font-family: 'Roboto';
