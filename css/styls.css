@@ -150,7 +150,8 @@ ul {  list-style-type: none;}
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    text-decoration: none; 
+    text-decoration: none;
+    margin-left: 215px;
     color: var(--add-color);
     
    }
@@ -345,7 +346,7 @@ ul {  list-style-type: none;}
     display: flex;
     justify-content: center;
     gap: 8px;
-    
+    margin-top: 94px;
 }
 
 .filter-list {
@@ -403,21 +404,42 @@ ul {  list-style-type: none;}
 /* .project {
 } */
 
+.what-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 34px;
+    margin-bottom: 94px;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
 .project-title {
+    display: flex;
+    justify-content: flex-start;
     font-weight: 700;
+    text-decoration: none;
     font-size: 18px;
     line-height: 2px;
+    margin-top: 20px;
     color: var(--main-color);
 }
 
 .project-list {
-    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 400;    
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
-    color: var(--filter-menu);    
+    text-decoration: none;
+    margin-top: 4px;
+    color: var(--filter-menu);
 }
-
+.project-link {
+    text-decoration: none;
+}
 
  .footer {
     background: #2F303A;
@@ -457,4 +479,7 @@ ul {  list-style-type: none;}
 
  .foot-link:focus {
     color: var(--add-color);
+ }
+ .foot-data {
+    margin-left: 215px;
  }
