@@ -336,6 +336,11 @@ ul {  list-style-type: none;}
     cursor: pointer;
 }
 
+/* PAGE PORTFOLIO */
+.filter-btn {
+    display: none;  
+}
+
 
 .filter-list {
     font-family: 'Roboto';
