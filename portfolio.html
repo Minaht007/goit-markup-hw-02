@@ -42,71 +42,85 @@
 
     <!-- MAIN -->
     <main>
-        <!-- Menu -->
-        
+       
+      <!-- Menu -->
+
+
           <!-- Фильтр работ -->
-            <h2 class="filter-btn"> Наши проекты </h2>
-            <ul class="filter">
+          <div class="container">
+                <h2 class="filter-btn"> Наши проекты </h2>
+            <ul class="filter navigate">
               <li><button type="button" class="filter-all">Все</button></li>
               <li> <button type="button" class="filter-list"> Веб-сайты</button></li>
               <li><button type="button" class="filter-list"> Приложения</button></li>
               <li> <button type="button" class="filter-list"> Дизайн</button></li>
               <li> <button type="button" class="filter-list"> Маркетинг</button></li>      
-            </ul>            
+            </ul>  
+          </div>
+                  
 
 
         <!-- Menu posters -->
-        <section class="project">
-            <ul class="what-project">
-                <li>                    
+
+        <div class="container">
+          <section class="project-section ">
+            <ul class="what-project navigate">
+                <li class="type-project">                    
                     <a href="" class="project-link"> <img src="./imeges/menu-picture/LapTop.jpg" alt="LapTop" width="370">
                       <h2 class="project-title">Технокряк</h2>
                       <p class="project-list">Веб-сайт</p>
                     </a>                    
                 </li>
-                <li>
+
+                <li class="type-project">
                     <a href="" class="project-link"> <img src="./imeges/menu-picture/SportrsMan.jpg" alt="SportrsMan" width="370">
                       <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
                       <p class="project-list">Дизайн</p>
                     </a>                    
-                </li>
-                <li>
+                </li >
+
+                <li class="type-project">
                     <a href="" class="project-link"> <img src="./imeges/menu-picture/FishFood.png" alt="FishFood" width="370">
                       <h2 class="project-title">Ресторан Seafood</h2>
                       <p class="project-list"> Приложение</p>
                     </a>
                 </li>
-                <li>
+
+                <li class="type-project">
                     <a href="" class="project-link"> <img src="./imeges/menu-picture/HearHead.png" alt="HearHead" width="370">
                       <h2 class="project-title">Проект Prime</h2>
                       <p class="project-list">Маркетинг</p>
                     </a>                    
                 </li>
-                <li>
+
+                <li class="type-project">
                     <a href="" class="project-link"> <img src="./imeges/menu-picture/Boxes.png" alt="Boxes" width="370">
                       <h2 class="project-title">Проект Boxes</h2>
                       <p class="project-list">Приложение</p>
                     </a>
-                                   </li>
-                <li>
+                </li>
+
+                <li class="type-project">
                     <a href="" class="project-link"> <img src="./imeges/menu-picture/Monoblock.png" alt="Monoblock" width="370">
                       <h2 class="project-title">Inspiration has no Border</h2>
                       <p class="project-list">Веб-сайт</p>
                     </a>                    
                 </li>
-                <li>
+
+                <li class="type-project">
                     <a href="" class="project-link"> <img src="./imeges/menu-picture/Magazine.png" alt="Magazine" width="370">
                       <h2 class="project-title">Издание Limoted Edition</h2>
                       <p class="project-list">Дизайн</p></a>                 
                 </li>
-                <li>
+
+                <li class="type-project">
                     <a href="" class="project-link"> <img src="./imeges/menu-picture/Labe.png" alt="Labe" width="370">
                       <h2 class="project-title">Проет LAB</h2>
                     <p class="project-list">Маркетинг</p>
-                    </a>
-                  
+                    </a>                  
                 </li>
-                <li>
+
+                <li class="type-project">
                     <a href="" class="project-link"> <img src="./imeges/menu-picture/CoderLap.png" alt="CoderLap" width="370">
                       <h2 class="project-title">Growing Bussiness</h2>
                       <p class="project-list">Приложение</p>
@@ -115,17 +129,20 @@
             </ul>
         </section>
 
+        </div>
+        
     </main>
 
-    <footer class="footer">
-      <section>
-        <a href="/" class="header"> <span class="logos">Web</span><span class="logo-foot">Studio</span></a>
-        <ul class="foot-data">
-          <li>
-            <a href="https://www.google.com.ua/maps" class="foot-contact"
-              ><address class="adress">г. Киев, пр-т Леси Украинки, 26</address></a
-            >
-          </li>
+    <footer class="footer container">
+      <section class="foot-contact">      
+        <a href="/" class="header-foot bottom-id"> <span class="logos">Web</span><span class="logo-foot">Studio</span></a>
+        <address class="adress ">
+            <a class="adress" href="https://www.google.com.ua/maps"
+            class="foot-contact">   
+           г. Киев, пр-т Леси Украинки, 26
+        </address>     
+
+        <ul>         
           <li>
             <a class="foot-link" href="mailto:info@example.com"
               >info@example.com</a

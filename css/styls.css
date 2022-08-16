@@ -269,9 +269,13 @@ ul {  list-style-type: none;}
 
 /* PAGE PORTFOLIO */
 .filter-btn {
-    display: none;  
+    visibility: hidden;  
 }
-
+.filter {
+    margin-top: 94px;
+    margin-bottom: 50px;
+    gap: 8px;
+}
 
 .filter-list {
     font-weight: 500;
@@ -322,29 +326,49 @@ ul {  list-style-type: none;}
 
 /* Our Project */
 
+.project-section {  
+    margin-top: 34px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-bottom: 94px;   
+}
+
+.what-project {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    align-items: center;  
+    gap: 30px;
+    
+}
+.type-project {
+    flex-basis: calc((100% -3*30)/4);    
+}
+
 .project-title {
-    /* display: flex;
-    justify-content: flex-start; */
     font-weight: 700;
     text-decoration: none;
     font-size: 18px;
-    line-height: 2;
-    /* margin-top: 20px; */
+    line-height: 2;    
+    text-decoration: none;
     color: var(--main-color);
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
 
 .project-list {
-    /* display: flex;
-    justify-content: flex-start; */
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
-    text-decoration: none;
-    /* margin-top: 4px; */
+    text-decoration: none;    
     color: var(--filter-menu);
 }
 .project-link {
-    text-decoration: none;
+    display: block;
+    width: 370px;
+    /* text-decoration: none; */
+    
+   
 }
 
  .footer {
