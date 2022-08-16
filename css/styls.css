@@ -218,7 +218,7 @@ ul {  list-style-type: none;}
 
 .team-line {
     justify-content: center;
-    gap: 30px;    
+        
 }
 
 .team-rang {
@@ -349,21 +349,41 @@ ul {  list-style-type: none;}
 
  .footer {
     background: #2F303A;
+    justify-content: flex-start;
  }
  .logo-foot {
     color: #FFFFFF;
  }
  .foot-contact {   
-    text-decoration: none;    
+    text-decoration: none;
+    margin-left: 215px;  
  }
+
+ .header-foot {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: var(--add-color);
+    margin-top: 60px;
+ }
+.bottom-id {
+    padding-top: 60px;
+
+    
+}
 
 .adress {
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-
+    color: var(--filter-menu);
+    text-decoration: none;
+    /* padding-left: 215px;    */
+    padding-top: 30px;
+    margin-bottom: 9px;
 }
 
 .foot-contact:hover {
@@ -381,6 +401,7 @@ ul {  list-style-type: none;}
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);  
     text-decoration: none; 
+    margin-bottom: 9px;
  }
 
  .foot-link:hover {
@@ -390,6 +411,4 @@ ul {  list-style-type: none;}
  .foot-link:focus {
     color: var(--add-color);
  }
- .foot-data {
-    margin-left: 215px;
- }
+ 
