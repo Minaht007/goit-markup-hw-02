@@ -16,35 +16,47 @@
     <link rel="stylesheet" href="./css/styls.css" />
   </head>
   <body>
-    <header class="box-head">      
-        <nav class="box-nav">
-          <a href="/" class="header box-logo" > <span class="logos">Web</span><span class="logof">Studio</span></a>
-          <ul class="list-nav">
-            <li><a class="header-nav box-studio" href="../index.html"> Студия</a></li>
-            <li><a class="header-nav box-portfolio" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="header-nav menu-contacts" href="">Конткты</a></li>
+   
+    <header>  
+      <div class="container navigate">
+        <nav class="navigate">
+          <a href="/" class="header" > <span class="logos">Web</span><span class="logof">Studio</span></a>
+          <ul class="navigate">
+            <li><a class="header-nav " href="./index.html"> Студия</a></li>
+            <li><a class="header-nav " href="./portfolio.html">Портфолио</a></li>
+            <li><a class="header-nav " href="">Конткты</a></li>
           </ul>
-        </nav>
-        <ul class="box-contact">
-          <li>
-            <a class="contact box-mail" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contact box-tel" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>      
- 
+        </nav>  
+
+          <ul class="navigate contacts ">
+               <li>
+            <a class="contact " href="mailto:info@devstudio.com"
+              >info@devstudio.com</a>
+            </li>
+             <li>
+            <a class="contact " href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+          
+            
+      </div> 
     </header>
+
+
+
     <main>
-      <section class="hero">
+      <div class="container">
+        <section class="hero">
         <h1 class="baner ">Эффективные решения<br />для вашего бизнеса</h1>
-        <button type="button" class="main-btn box-btn">Заказать услугу</button>
+        <button type="button" class="main-btn">Заказать услугу</button>
       </section>
-      <section >
+      </div>
+      
+      <!-- НАШИ преимущества -->
+      <div class="container">
+         <section class="advantages">
         <!-- <h2 >Наши преимущества</h2> -->
-        <ul class="why box-advantages" >
+        <ul class="why navigate" >
           <li class="">
             <h3 class="why-list">Внимание к деталям</h3>
             <p class="why-p">
@@ -75,33 +87,38 @@
           </li>
         </ul>
       </section>
-
-
-      <section class="">
-        <h2 class="why box-lines" >Чем мы занимаемся</h2>
-        <ul class="img-lines">
-          <li>
+      </div>
+     
+<!-- ЧЕМ МЫ ЗАНИМАЕМСЯ -->
+      <div class="container">
+        <section>
+        <h2 class="why-lines" >Чем мы занимаемся</h2>
+        <ul class="navigate our-lines-titel">
+          <li class="our-lines">
             <a href=""
               ><img src="./imeges/box1.jpg" alt="Разработка сайтов" width="370"
             /></a>
           </li>
-          <li>
+          <li class="our-lines">
             <a href=""
               ><img src="./imeges/box2.jpg" alt="CEO сопровождение" width="370"
             /></a>
           </li>
-          <li>
+          <li class="our-lines">
             <a href=""
               ><img src="./imeges/box3.jpg" alt="Дизайн" width="370"
             /></a>
           </li>
         </ul>
       </section>
-
+      </div>
       
-      <section class="comand-section">
-        <h2 class="why comand-name">Наша команда</h2>
-        <ul class="team-line">
+
+    <!-- НАША КОМАНДА -->
+    <div>
+           <section class="comand-section">
+        <h2 class="comand-name">Наша команда</h2>
+        <ul class="team-line navigate">
           <li>
             <img
               src="./imeges/igordemidenko.jpg"
@@ -112,12 +129,12 @@
             <p class="team-rang">Product Designer</p>
           </li>
           <li>
-            <img src="./imeges/olgarepina.jpg" alt="Ольга Репина" width="270" />
+            <img class="navigate" src="./imeges/olgarepina.jpg" alt="Ольга Репина" width="270" />
             <h3 class="team-name">Ольга Репина</h3>
             <p class="team-rang">Frontend Developer</p>
           </li>
           <li>
-            <img
+            <img class="navigate"
               src="./imeges/nikolaitarasov.jpg"
               alt="Николай Тарасов"
               width="270"
@@ -136,6 +153,8 @@
           </li>
         </ul>
       </section>
+    </div>
+ 
     </main>
     <footer class="footer">
       <section>
