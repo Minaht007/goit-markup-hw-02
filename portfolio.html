@@ -16,23 +16,23 @@
          
   </head>
   <body>
-    <header>  
+       <header>  
       <div class="container navigate">
-        <nav class="navigate">
-          <a href="/" class="header" > <span class="logos">Web</span><span class="logof">Studio</span></a>
-          <ul class="navigate">
-            <li><a class="header-nav " href="./index.html"> Студия</a></li>
-            <li><a class="header-nav " href="./portfolio.html">Портфолио</a></li>
-            <li><a class="header-nav " href="">Конткты</a></li>
+        <nav class="navigate-nav">
+          <a href="/" class="header" >Web<span class="logof">Studio</span></a>
+          <ul class="navigate-list">
+            <li class="navigate-item"><a class="header-nav " href="./index.html"> Студия</a></li>
+            <li class="navigate-item"><a class="header-nav " href="./portfolio.html">Портфолио</a></li>
+            <li class="navigate-item"><a class="header-nav " href="">Конткты</a></li>
           </ul>
         </nav>  
 
           <ul class="navigate contacts ">
-               <li>
+               <li class="contacts-item">
             <a class="contact " href="mailto:info@devstudio.com"
               >info@devstudio.com</a>
             </li>
-             <li>
+             <li class="contacts-item">
             <a class="contact " href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>      
@@ -47,24 +47,18 @@
 
 
           <!-- Фильтр работ -->
-          <div class="container">
-                <h2 class="filter-btn"> Наши проекты </h2>
-            <ul class="filter navigate">
-              <li><button type="button" class="filter-all">Все</button></li>
-              <li> <button type="button" class="filter-list"> Веб-сайты</button></li>
-              <li><button type="button" class="filter-list"> Приложения</button></li>
-              <li> <button type="button" class="filter-list"> Дизайн</button></li>
-              <li> <button type="button" class="filter-list"> Маркетинг</button></li>      
+          <section class="section">
+            <div class="container">
+              <h1 class="visually-hidden"> Наши проекты </h1>
+            <ul class="filter">
+              <li class="filter-item"><button type="button" class="filter-list">Все</button></li>
+              <li class="filter-item"> <button type="button" class="filter-list"> Веб-сайты</button></li>
+              <li class="filter-item"><button type="button" class="filter-list"> Приложения</button></li>
+              <li class="filter-item"> <button type="button" class="filter-list"> Дизайн</button></li>
+              <li class="filter-item"> <button type="button" class="filter-list"> Маркетинг</button></li>      
             </ul>  
-          </div>
-                  
 
-
-        <!-- Menu posters -->
-
-        <div class="container">
-          <section class="project-section ">
-            <ul class="what-project navigate">
+             <ul class="what-project navigate">
                 <li class="type-project">                    
                     <a href="" class="project-link"> <img src="./imeges/menu-picture/LapTop.jpg" alt="LapTop" width="370">
                       <h2 class="project-title">Технокряк</h2>
@@ -127,23 +121,32 @@
                     </a>                   
                 </li>
             </ul>
-        </section>
+            </div>
+          </section>
+            
 
-        </div>
+
+      
+
         
+
+
     </main>
 
-    <footer class="footer container">
-      <section class="foot-contact">      
+  <footer class="footer">
+       <div class="container">  
         <a href="/" class="header-foot bottom-id"> <span class="logos">Web</span><span class="logo-foot">Studio</span></a>
         <address class="adress ">
-            <a class="adress" href="https://www.google.com.ua/maps"
-            class="foot-contact">   
-           г. Киев, пр-т Леси Украинки, 26
-        </address>     
+          
+                  
 
-        <ul>         
-          <li>
+          <ul>
+            <li class="fotter-link">
+              <a class="adress" href="https://www.google.com.ua/maps"
+            class="foot-contact">   
+           г. Киев, пр-т Леси Украинки, 26 </a>
+            </li>         
+          <li class="fotter-link">
             <a class="foot-link" href="mailto:info@example.com"
               >info@example.com</a
             >
@@ -151,7 +154,11 @@
           <li>
             <a class="foot-link" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
-        </ul>
-      </section>
+          </ul>
+        </address> 
+
+       </div>
+        
+    
     </footer>
   </body>
