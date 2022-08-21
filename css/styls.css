@@ -372,7 +372,7 @@ header {
 }
 .type-project {
     background: var(--bancground-color);
-    border: 1px solid #EEEEEE;
+    
 }
 
 .project-title {
@@ -381,8 +381,8 @@ header {
     font-size: 18px;
     line-height: 2;    
     color: var(--main-color);
-    margin-top: 20px;
-    margin-bottom: 4px;
+    padding-bottom: 4px;
+
 
 }
 
@@ -392,13 +392,17 @@ header {
     letter-spacing: 0.03em;
     text-decoration: none;    
     color: var(--filter-menu);
-    margin-bottom: 20px;
+    padding-top: 0;
+    
 }
 
-/* .project-itemes{
-    margin-top: 20px;
-    margin-bottom: 20px;
-} */
+.project-itemes{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
 
 
 
